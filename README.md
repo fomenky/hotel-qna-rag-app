@@ -2,7 +2,15 @@
 
 **A deployable Retrieval-Augmented Generation app that lets hotel staff ask natural-language policy questions and get source-grounded answers, with a confidence score that routes low-confidence answers to manual lookup.**
 
-> **Note on this repo:** unlike a notebook-only analysis, the deliverable here is a **running application** (FastAPI/Flask backend + Streamlit frontend, containerized with Docker). There is no static HTML report / GitHub Pages site — the value is the app and its architecture. The accompanying notebook documents how the RAG pipeline was built and evaluated.
+### 📊 [**View the Project Report →**](https://fomenky.github.io/hotel-qna-rag-app/)
+
+Published via GitHub Pages — no download or setup required. The landing page is a clean **executive summary**; it links through to the **full detailed report** (complete notebook build and evaluation). Direct links:
+
+- **Executive summary (Pages landing page):** https://fomenky.github.io/hotel-qna-rag-app/
+- **Full detailed report:** https://fomenky.github.io/hotel-qna-rag-app/reports/hotel_qna_rag_full_report.html
+- Source copies: [`reports/executive_summary.html`](reports/executive_summary.html) · [`reports/hotel_qna_rag_full_report.html`](reports/hotel_qna_rag_full_report.html)
+
+> **Note on this repo:** beyond the report and notebook, the deliverable here is also a **running application** — a Flask backend + Streamlit frontend, containerized with Docker (see [`backend/`](backend) and [`frontend/`](frontend)).
 
 ---
 
@@ -73,6 +81,10 @@ The [notebook](notebooks/hotel_qna_rag.ipynb) walks through ingestion, retrieval
 ```text
 hotel-qna-rag-app/
 ├── README.md
+├── index.html                 # GitHub Pages landing page (executive summary → full report)
+├── reports/
+│   ├── hotel_qna_rag_full_report.html
+│   └── executive_summary.html
 ├── backend/                   # RAG service (app.py, rag_utils.py, Dockerfile, requirements.txt)
 ├── frontend/                  # Streamlit UI (app.py, Dockerfile, requirements.txt)
 ├── notebooks/

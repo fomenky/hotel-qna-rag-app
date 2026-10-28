@@ -1,3 +1,8 @@
 # Language-bar classification (GitHub Linguist)
-# Count Python app code and the Jupyter notebook as the languages of record.
+# The full report under reports/ is a generated HTML export of the notebook;
+# exclude it so the language bar reflects the actual work: the Python app code,
+# the Jupyter notebook, and the hand-written HTML summary.
+
+reports/*.html linguist-generated=true
 *.ipynb linguist-detectable=true
+index.html linguist-detectable=true
