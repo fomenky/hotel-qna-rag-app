@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Secrets & config (NEVER commit real keys)
+.env
+config.json
+*.key
+
+# Rebuildable artifacts / caches
+faiss_index/
+*.faiss
+*.pkl
+.deepeval/
+.deepeval_telemetry.txt
+_md_cache.pkl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

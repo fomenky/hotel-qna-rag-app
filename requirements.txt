@@ -1,0 +1,26 @@
+# Notebook / pipeline dependencies for the Hotel QnA RAG build & evaluation.
+# The backend/ and frontend/ folders each ship their own runtime requirements.txt.
+# Versions pinned to the environment the notebook was executed in.
+
+langchain-openai==1.6.1
+langchain-community==0.4.2
+langchain-core==1.7.0
+langchain-text-splitters==1.1.2
+langchain-huggingface==1.2.2
+
+faiss-cpu==1.15.0
+openai==3.37.0
+tiktoken==0.14.0
+transformers==5.16.1
+docling==2.126.0
+
+deepeval==4.2.2
+pandas==2.2.3
+pydantic==2.14.1
+python-dotenv==1.2.4
+
+# App frameworks (also pinned in backend/ and frontend/ requirements.txt)
+flask==3.1.3
+streamlit==1.64.0
+
+jupyter

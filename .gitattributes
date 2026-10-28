@@ -1,0 +1,3 @@
+# Language-bar classification (GitHub Linguist)
+# Count Python app code and the Jupyter notebook as the languages of record.
+*.ipynb linguist-detectable=true
